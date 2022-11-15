@@ -1,0 +1,100 @@
+
+.floatingButtonWrap {
+    display: block;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    z-index: 999999999;
+  }
+  
+  .floatingButtonInner {
+    position: relative;
+  }
+  
+  .floatingButton {
+    display: block;
+    width: 60px;
+    height: 60px;
+  
+    position: absolute;
+  
+    transition: all 0.4s;
+  
+  
+    border-radius: 50% 50%;
+    bottom: 0px;
+    right: 0px;
+  
+    /* opacity: 0.3; */
+    opacity: 1;
+    text-align: center;
+  
+  }
+  
+  .floatingButton .fa {
+    font-size: 15px !important;
+  }
+  .floatingButton img {
+    width: 100%;
+    height: 100%;
+  }
+  .floatingButton.open,
+  .floatingButton:hover,
+  .floatingButton:focus,
+  .floatingButton:active {
+    opacity: 1;
+    color: #fff;
+  }
+  
+  
+  .floatingButton .fa {
+    transform: rotate(0deg);
+    transition: all 0.4s;
+  }
+  
+  .floatingButton.open .fa {
+    transform: rotate(270deg);
+  }
+  
+  .floatingMenu {
+    position: absolute;
+    bottom: 60px;
+    right: 7px;
+    /* width: 200px; */
+    display: none;
+  }
+  
+  .floatingMenu li {
+    width: 100%;
+    float: right;
+    list-style: none;
+    text-align: right;
+    margin-bottom: 5px;
+  }
+  
+  .floatingMenu li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    background: #ccd7f5;
+    color: #6077b0;
+    border-radius: 5px;
+  
+    white-space: nowrap;
+    transition: all 0.4s;
+    /* -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.22); */
+    -webkit-box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);
+    box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);
+  }
+  
+  .floatingMenu li a:hover {
+    margin-right: 10px;
+    text-decoration: none;
+  background-color: #273049;
+  color: #fff;
+  }

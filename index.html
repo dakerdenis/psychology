@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindCare</title>
+
+  <!--ico--->
+  <link rel="shortcut icon" href="./style/img/favicon.png" type="image/x-icon" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Link Swiper's CSS -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./style/swiper.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!---main styles-->
+  <link rel="stylesheet" href="./style/contact.css" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="./style/burger.css" />
+</head>
+
+<body>
+  <!-- main container----->
+  <div class="main_wrapper">
+    <!-------->
+    <div class="header__container">
+      <div class="header__wrapper">
+        <!---header img--->
+        <div class="header__image">
+          <a href="./index.html">
+            <img src="./style/img/logo.png" alt="" />
+          </a>
+        </div>
+        <!----header navigation-->
+        <div class="header__nav_wrapper">
+          <div class="header__nav__element">
+            <a href="#element1">Услуги</a>
+          </div>
+          <div class="header__round__block">
+
+          </div>
+          <div class="header__nav__element">
+            <a href="#element2">О нас</a>
+          </div>
+          <div class="header__round__block">
+            
+          </div>
+          <div class="header__nav__element">
+            <a href="#element3">Блок 3</a>
+          </div>
+          <div class="header__round__block">
+            
+        </div>
+          <div class="header__nav__element">
+            <a href="#element4">Контакты</a>
+          </div>
+          <!---language---->
+          <div class="header__nav__element header__nav__element_language">
+            <div class="dropdown-container">
+              <label for="openDropdown" class="dropdown">
+                RU
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+              </label>
+
+              <input type="checkbox" id="openDropdown" hidden />
+
+              <div class="dropdown-menu">
+                <span>AZ</span>
+                <span>EN</span>
+                <span>RU</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----header mobile burger-->
+        <div class="mobile__burger_block">
+          <div class="burger-menu">
+            <a href="" class="burger-menu_button">
+              <spun class="burger-menu_lines"></spun>
+            </a>
+            <nav class="burger-menu_nav">
+              <div class="burger_menu__img">
+                <img src="./imgs/Logo.svg" alt="" />
+              </div>
+              <a href="#element1" class="burger-menu_link">Услуги</a>
+              <a href="#element2" class="burger-menu_link">О нас</a>
+              <a href="#element3" class="burger-menu_link">Калькулятор</a>
+              <a href="#element4" class="burger-menu_link">Контакты</a>
+              <div class="burger_menu__all_rights">
+                <p>Copyright © 1997—2008 «Fintrend NBCO»</p>
+              </div>
+            </nav>
+            <div class="burger-menu_overlay"></div>
+          </div>
+        </div>
+
+
+        
+      </div>
+    </div>
+    <div class="main__content">
+      <!---главный блок слайдера---->
+      <div class="main__slider_block">
+        <div class="main__slider__wrapper">
+          <!-- Swiper -->
+          <div class="swiper swiper-container1 mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper__slide__contentblock">
+                  <img src="./imgs/abc.png" alt="" />
+                  <div class="swiper__slide_content_dontainer">
+                    <div class="swpr_sld_content_blockname">
+                      Lorem ipsum dolor sit amet,<span> Lorem ipsum </span>
+                      adipiscing elit
+                    </div>
+                    <div class="swpr_sld_content_desc">
+                      Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">Блок информация 2</div>
+              <div class="swiper-slide">Блок информация 3</div>
+              <div class="swiper-slide">Блок информация 4</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+
+      <!---главный блок услуги---->
+      <div id="element1" class="block__content__services">
+        <div class="services__main_name">Услуги</div>
+        <div class="services__container_block">
+          <div class="services__wrapper">
+            <!-- services element--->
+            <div class="services__element__block">
+              <div class="services__element">
+                <div class="element__wrapper">
+                  <!--services name---->
+                  <div class="element__name">KREDITLER</div>
+                  <!-----date money-->
+                  <div class="element__money__date">
+                    <div class="services__money">
+                      <div class="services__money__desc">
+                        <p>от</p>
+                      </div>
+                      <div class="services__money_number">
+                        <p>3450 ₼</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!---services line---->
+                  <div class="element__line"></div>
+                  <!--services desc--->
+                  <div class="services__desc__block">
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                  </div>
+                  <!----->
+                </div>
+              </div>
+            </div>
+            <!-- services element--->
+            <div class="services__element__block">
+              <div class="services__element">
+                <div class="element__wrapper">
+                  <!--services name---->
+                  <div class="element__name">KREDITLER</div>
+                  <!-----date money-->
+                  <div class="element__money__date">
+                    <div class="services__money">
+                      <div class="services__money__desc">
+                        <p>от</p>
+                      </div>
+                      <div class="services__money_number">
+                        <p>3450 ₼</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!---services line---->
+                  <div class="element__line"></div>
+                  <!--services desc--->
+                  <div class="services__desc__block">
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                  </div>
+                  <!----->
+                </div>
+              </div>
+            </div>
+            <!-- services element--->
+            <div class="services__element__block">
+              <div class="services__element">
+                <div class="element__wrapper">
+                  <!--services name---->
+                  <div class="element__name">KREDITLER</div>
+                  <!-----date money-->
+                  <div class="element__money__date">
+                    <div class="services__money">
+                      <div class="services__money__desc">
+                        <p>от</p>
+                      </div>
+                      <div class="services__money_number">
+                        <p>3450 ₼</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!---services line---->
+                  <div class="element__line"></div>
+                  <!--services desc--->
+                  <div class="services__desc__block">
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                  </div>
+                  <!----->
+                </div>
+              </div>
+            </div>
+            <!-- services element--->
+            <div class="services__element__block">
+              <div class="services__element">
+                <div class="element__wrapper">
+                  <!--services name---->
+                  <div class="element__name">KREDITLER</div>
+                  <!-----date money-->
+                  <div class="element__money__date">
+                    <div class="services__money">
+                      <div class="services__money__desc">
+                        <p>от</p>
+                      </div>
+                      <div class="services__money_number">
+                        <p>3450 ₼</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!---services line---->
+                  <div class="element__line"></div>
+                  <!--services desc--->
+                  <div class="services__desc__block">
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                  </div>
+                  <!----->
+                </div>
+              </div>
+            </div>
+            <!-- services element--->
+            <div class="services__element__block">
+              <div class="services__element">
+                <div class="element__wrapper">
+                  <!--services name---->
+                  <div class="element__name">KREDITLER</div>
+                  <!-----date money-->
+                  <div class="element__money__date">
+                    <div class="services__money">
+                      <div class="services__money__desc">
+                        <p>от</p>
+                      </div>
+                      <div class="services__money_number">
+                        <p>3450 ₼</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!---services line---->
+                  <div class="element__line"></div>
+                  <!--services desc--->
+                  <div class="services__desc__block">
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                    <!---services desc element ---->
+                    <div class="services__desc__element">
+                      <div class="services__desc__element__image">
+                        <img src="./imgs/ok.svg" class="element__ok" alt="" />
+                        <img src="./imgs/okw.svg" class="element__okw" alt="" />
+                      </div>
+                      <div class="services__desc__element__text">
+                        Lorem ipsum dolor
+                      </div>
+                    </div>
+                  </div>
+                  <!----->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---блок конвертер валют--->
+      <div id="element3" class="converter__wrapper">
+        <div class="converter__wrapper__block">
+          <div class="converter__placeholder_top">
+            <p>Конвертер валют</p>
+          </div>
+          <div class="converter__placeholder_bottom"></div>
+          <div class="converter__placeholder_right"></div>
+          <div class="converter__placeholder_left"></div>
+          <!-- START CODE Attention! Do not modify this code; -->
+          <script>
+            var fm = "EUR";
+            var to = "USD";
+            var tz = "timezone";
+            var sz = "1x1";
+            var lg = "en";
+            var st = "default";
+            var lr = "0";
+            var rd = "0";
+          </script>
+          <script src="//currencyrate.today/converter"></script>
+
+        </div>
+        <style>
+          .panel-primary {
+            border-radius: 0px;
+            background-color: #273049;
+          }
+
+          .panel-primary>.panel-heading {
+            border-radius: 0px;
+            background-color: #273049;
+          }
+        </style>
+      </div>
+      <!----о нас раздел--->
+      <div id="element2" class="block__content__about">
+        <div class="about__main_name">О нас</div>
+        <div class="about__container_block">
+          <div class="about_wrapper">
+            <!---about element----->
+            <div class="about__element_block">
+              <div class="about__element">
+                <div class="about__element__wrapper">
+                  <div class="about__element__wrapper_content">
+                    <!---image-->
+                    <div class="about__image_block">
+                      <img src="./imgs/about1.svg" alt="" />
+                    </div>
+                    <!----about element name---->
+                    <div class="about__element__name">
+                      <p>Lorem ipsum dolor</p>
+                    </div>
+                    <!---about element name desc------>
+                    <div class="about__element__desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud
+                    </div>
+                  </div>
+                  <!---about element line---->
+                  <div class="about__element__line"></div>
+                </div>
+              </div>
+            </div>
+
+            <!---about element----->
+            <div class="about__element_block">
+              <div class="about__element">
+                <div class="about__element__wrapper">
+                  <div class="about__element__wrapper_content">
+                  <!---image-->
+                  <div class="about__image_block">
+                    <img src="./imgs/about2.svg" alt="" />
+                  </div>
+                  <!----about element name---->
+                  <div class="about__element__name">
+                    <p>Lorem ipsum dolor</p>
+                  </div>
+                  <!---about element name desc------>
+                  <div class="about__element__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud
+                  </div>
+                </div>
+                  <!---about element line---->
+                  <div class="about__element__line"></div>
+                </div>
+              </div>
+            </div>
+
+            <!---about element----->
+            <div class="about__element_block">
+              <div class="about__element">
+                <div class="about__element__wrapper">
+                  <!---image-->
+                  <div class="about__image_block">
+                    <img src="./imgs/about3.svg" alt="" />
+                  </div>
+                  <!----about element name---->
+                  <div class="about__element__name">
+                    <p>Lorem ipsum dolor</p>
+                  </div>
+                  <!---about element name desc------>
+                  <div class="about__element__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud
+                  </div>
+                  <!---about element line---->
+                  <div class="about__element__line"></div>
+                </div>
+              </div>
+            </div>
+
+            <!---about element----->
+            <div class="about__element_block">
+              <div class="about__element">
+                <div class="about__element__wrapper">
+                  <div class="about__element__slider">
+                    <!-- Swiper -->
+
+                    <!-- Swiper -->
+                    <div class="swiper swiper-container2 mySwiper2" style="margin-top: 0px; max-height: 510px">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide2">
+                          <div class="slider__download__wrapper">
+                            <div class="about__sliderelement__block">
+                              <img src="./imgs/about_files.svg" alt="" />
+                            </div>
+                            <div class="about__sliderelement__name">
+                              Lorem ipsum dolor
+                            </div>
+                            <div class="about__sliderelement__desc">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipiscing elit, sed do eiusmod tempor
+                              incididunt ut labore et
+                            </div>
+                          </div>
+                          <div class="about__sliderelement__button">
+                            <a href="#">Скачать</a>
+                          </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide2">
+                          <div class="slider__download__wrapper">
+                            <div class="about__sliderelement__block">
+                              <img src="./imgs/about_files.svg" alt="" />
+                            </div>
+                            <div class="about__sliderelement__name">
+                              Lorem ipsum dolor 2
+                            </div>
+                            <div class="about__sliderelement__desc">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipiscing elit, sed do eiusmod tempor
+                              incididunt ut labore et
+                            </div>
+                          </div>
+                          <div class="about__sliderelement__button">
+                            <a href="#">Скачать</a>
+                          </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide2">
+                          <div class="slider__download__wrapper">
+                            <div class="about__sliderelement__block">
+                              <img src="./imgs/about_files.svg" alt="" />
+                            </div>
+                            <div class="about__sliderelement__name">
+                              Lorem ipsum dolor 3
+                            </div>
+                            <div class="about__sliderelement__desc">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipiscing elit, sed do eiusmod tempor
+                              incididunt ut labore et
+                            </div>
+                          </div>
+                          <div class="about__sliderelement__button">
+                            <a href="#">Скачать</a>
+                          </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide2">
+                          <div class="slider__download__wrapper">
+                            <div class="about__sliderelement__block">
+                              <img src="./imgs/about_files.svg" alt="" />
+                            </div>
+                            <div class="about__sliderelement__name">
+                              Lorem ipsum dolor 4
+                            </div>
+                            <div class="about__sliderelement__desc">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipiscing elit, sed do eiusmod tempor
+                              incididunt ut labore et
+                            </div>
+                          </div>
+                          <div class="about__sliderelement__button">
+                            <a href="#">Скачать</a>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="swiper-button-next1"></div>
+                      <div class="swiper-button-prev1"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------->
+
+
+      <!--Контакты--->
+      <div id="element4" class="block__content__contacts">
+        <div class="contact__with_us_wrapper">
+          <div style="margin-bottom: 20px;" class="services__main_name">
+            Контакты
+          </div>
+          <div class="contact__with_us_desc">
+
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem,
+            deserunt natus aliquam modi porro fuga sint odit aliquid, illum
+            ratione, dolor exercitationem similique. Odit, odio architecto
+            accusantium doloribus earum sunt?
+
+          </div>
+          <div class="contact__with_us_data">
+            <!--contact numbers-->
+            <div class="contact__with_us_data-numbers">
+              <p class="contact__with_us_data-numbers-p">Номера</p>
+              <p class="contact__with_us_data-numbers-p2">
+                phone: +994 (12) 564 48 18
+              </p>
+              <p class="contact__with_us_data-numbers-p2">
+                phone: +994 (12) 564 17 36
+              </p>
+              <p class="contact__with_us_data-numbers-p2">
+                mobile: +994 (50) 229 74 71
+              </p>
+            </div>
+            <!--contact adress-->
+            <div class="contact__with_us_data-adress">
+              <p class="contact__with_us_data-numbers-p">Email</p>
+              <p class="contact__with_us_data-p">contact@fintrend.az</p>
+            </div>
+            <!--contact adress-->
+            <div class="contact__with_us_data-adress">
+              <p class="contact__with_us_data-numbers-p">Adress</p>
+              <p class="contact__with_us_data-p">Azərbaycan Bakı, Zərifə Əliyeva küç.,55</p>
+            </div>
+            <!--contact social-->
+            <div class="contact__with_us_data-social">
+              <div class="contact__with_us_data-social-name">
+                Соц.Сети
+              </div>
+              <div class="contact__social__wrapper">
+                <div class="contact__with_us_data-social_block">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </div>
+                <div class="contact__with_us_data-social_block">
+                  <i class="fa fa-telegram" aria-hidden="true"></i>
+                </div>
+                <div class="contact__with_us_data-social_block">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div class="contact__with_us_data-social_block">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+                <div class="contact__with_us_data-social_block">
+
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__with_us_form">
+            <form action="" class="contact__with_us_form-form">
+              <div class="contact__form_name">Форма связи</div>
+              <!--Name & phone-->
+              <div class="contact__form-info">
+                <input type="text" class="contact__form-info_input" placeholder="*Имя">
+                <input type="phone" class="contact__form-info_input" placeholder="Телефон">
+              </div>
+              <!--email & subject-->
+              <div class="contact__form-info">
+                <input type="email" class="contact__form-info_input" placeholder="*Email">
+                <input type="text" class="contact__form-info_input" placeholder="Тема">
+              </div>
+              <!--Message Area-->
+              <div class="contact__form-info">
+                <textarea name="" class="contact__form-message" placeholder="*Напишите своё сообщение..."></textarea>
+              </div>
+              <div class="submit__button__wrapper">
+                <!--submit button-->
+                <button type="submit" class="contact__form-button">
+                  Отправить
+                </button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <!------->
+
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__content__wrapper">
+            <!--footer image--->
+            <div class="footer__content__image">
+              <div class="footer__content__image_block">
+                <img src="./imgs/logo_logo.svg" alt="" />
+              </div>
+            </div>
+            <!---footer text block----->
+            <div class="footer__content__text">
+              <div class="footer__content__textwrapper">
+                <!--footer text block name---->
+                <div class="footer__content__textname">
+                  <p>Lorem ipsum dolor</p>
+                  <div class="footer__line"></div>
+                </div>
+                <div class="footer__content__textelement">
+                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Dolor sit</a>
+                  <a href="#">Amet consectetur</a>
+                </div>
+              </div>
+            </div>
+            <!---footer text block----->
+            <div class="footer__content__text">
+              <div class="footer__content__textwrapper">
+                <!--footer text block name---->
+                <div class="footer__content__textname">
+                  <p>Lorem ipsum dolor</p>
+                  <div class="footer__line"></div>
+                </div>
+                <div class="footer__content__textelement">
+                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Dolor sit</a>
+                  <a href="#">Amet consectetur</a>
+                </div>
+              </div>
+            </div>
+            <!---footer text block----->
+            <div class="footer__content__text">
+              <div class="footer__content__textwrapper">
+                <!--footer text block name---->
+                <div class="footer__content__textname">
+                  <p>Lorem ipsum dolor</p>
+                  <div class="footer__line"></div>
+                </div>
+                <div class="footer__content__textelement">
+                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Dolor sit</a>
+                  <a href="#">Amet consectetur</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__rights">
+          <p>Copyright © 1997—2008 «Fintrend NBCO»</p>
+        </div>
+      </div>
+
+
+      <div class="floatingButtonWrap">
+        <div class="floatingButtonInner">
+          <a href="#" class="floatingButton">
+            <img src="./imgs/contact.svg" alt="">
+          </a>
+          <ul class="floatingMenu">
+            <li>
+              <a href="#">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-telegram" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container1", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      var swiper2 = new Swiper(".swiper-container2", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next1",
+          prevEl: ".swiper-button-prev1",
+        },
+      });
+    </script>
+    <!-- Initialize Swiper -->
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
+<!----CREATED BY DENIS AKERSHTEYN
+  ///////////////////////////////////
+  https://github.com/dakerdenis/fintrend
+  ///////////////////////////////////
+  for connecting https://daker.website/ 
+  -------->
