@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -102,7 +103,7 @@ h6 {
   position: fixed;
   top: 0;
   z-index: 5;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  box-shadow: rgba(213, 143, 118, 0.55) 0px 1px 2px 0px;
 }
 .header__wrapper {
   width: 95%;
@@ -154,7 +155,7 @@ h6 {
 
 }
 .header__nav__element a:hover {
-  color: #d58f76;
+  color: rgb(213, 143, 118);
 }
 .header__round__block{
   background-color: #d58f7681;
@@ -242,7 +243,6 @@ h6 {
 .main__slider_block {
   width: 100%;
   min-height: 100vh;
-  background-color: #e3e3e3;
 }
 .main__slider__wrapper {
   width: 100%;
@@ -455,7 +455,7 @@ h6 {
 .about__main_name {
   width: 100%;
   text-align: center;
-  color: rgba(39, 48, 73, 1);
+  color: #a15547;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -472,10 +472,11 @@ h6 {
   margin-top: 70px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   min-height: 560px;
 }
 .about__element_block {
-  width: 25%;
+  width: 30%;
   padding: 0 15px 30px;
   height: 100%;
 }
@@ -705,8 +706,7 @@ padding: 5px 45px;
 
 .contact__with_us_form-form {
   width: 100%;
-  display: none;
-  visibility: hidden;
+
 }
 
 .contact__form_name {
@@ -728,15 +728,15 @@ padding: 5px 45px;
 .contact__form-info_input {
   display: block;
   width: 49%;
-  border: 1px solid #041332;
-  border-radius: 1px;
+  border: 1px solid #d58f76;
+  border-radius: 4px;
   font-size: 16px;
   padding: 18px 20px 18px 20px;
 }
 
 .contact__form-info_input:focus {
   outline: none !important;
-  border: 1px solid #273049;
+  border: 1px solid #d58f76;
 }
 
 ::placeholder {
@@ -774,8 +774,8 @@ padding: 5px 45px;
   display: block;
   width: 100%;
   height: 200px;
-  border: 1px solid #041332;
-  border-radius: 1px;
+  border: 1px solid #d58f76;
+  border-radius: 4px;
   font-size: 16px;
   padding: 18px 20px 18px 20px;
 }
@@ -814,7 +814,7 @@ textarea:-ms-input-placeholder {
   justify-content: center;
 }
 .contact__form-button {
-  background-color: rgba(39, 48, 73, 1);
+  background-color: #d58f76;
   border-radius: 1px;
   font-weight: 600;
   font-size: 16px;
@@ -823,6 +823,9 @@ textarea:-ms-input-placeholder {
   padding: 5px 40px 5px 40px;
   cursor: pointer;
   letter-spacing: 0.5px;
+}
+.contact__form-button:hover {
+  background-color: #a15547;
 }
 
 /********footer container styles**********************/
@@ -1012,7 +1015,7 @@ textarea:-ms-input-placeholder {
     width: 30%;
   }
   .about__element_block {
-    width: 32%;
+    width: 30%;
   }  
   .about_wrapper{
     justify-content: space-evenly;
