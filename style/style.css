@@ -219,7 +219,8 @@ h6 {
   transition: background 0.3s ease;
 }
 .dropdown-menu span:hover {
-  background: #eee;
+  background: #d58f76;
+  color: #fff;
 }
 
 #openDropdown:checked + .dropdown-menu {
@@ -246,49 +247,6 @@ h6 {
 .main__slider__wrapper {
   width: 100%;
   height: 100%;
-}
-.swiper__slide__contentblock {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.swiper__slide__contentblock img {
-  height: 100%;
-  z-index: 9;
-}
-.swiper__slide_content_dontainer {
-  position: absolute;
-
-  z-index: 20;
-  background-color: rgba(39, 48, 73, 0.48);
-  bottom: 25%;
-  left: 4%;
-
-  width: 35%;
-  padding: 18px;
-}
-.swpr_sld_content_blockname {
-  padding-left: 25px;
-  border-left: 2px solid rgba(106, 128, 207, 1);
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 64px;
-  line-height: 95px;
-  color: rgba(255, 255, 255, 1);
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  margin-top: 15px;
-}
-.swpr_sld_content_blockname span {
-  color: rgba(106, 128, 207, 1);
-}
-.swpr_sld_content_desc {
-  color: rgba(255, 255, 255, 1);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 42px;
 }
 /*********services elements*****************/
 /*********services elements*****************/
@@ -1372,12 +1330,10 @@ textarea:-ms-input-placeholder {
     padding: 18px;
   }
   .swiper-button-next {
-    display: none;
-    visibility: hidden;
+
   }
   .swiper-button-prev {
-    display: none;
-    visibility: hidden;
+
   }
   .about__element_block {
     width: 100%;
