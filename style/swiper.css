@@ -7,9 +7,27 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
-
+  .swiper__wrapper__block{
+    width: 100%;
+    height: 100%;
+  }
+.sipwer__image__block{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.sipwer__image__block img {
+  width: 100%;
+}
   .swiper {
     margin-left: auto;
     margin-right: auto;
@@ -18,37 +36,13 @@
     width: 15px;
     height: 15px;
   }
-  .swiper-pagination-bullet-active {
-    background-color: rgba(106, 128, 207, 1) !important;
-}
-.swiper-button-next1{
 
-  color: rgba(106, 128, 207, 1);
-  position: absolute;
-  top: 23%;
-  right: 0;
-  width: 40px;
-  height: 40px;
-  z-index: 20;
-  background-image: url('../imgs/arrow_forward.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
-.swiper-button-prev1{
 
-  color: rgba(106, 128, 207, 1);
-  position: absolute;
-  top: 23%;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  z-index: 20;
-  background-image: url('../imgs/arrow_back.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
+.swiper-button-next:after,  .swiper-button-prev:after {
+  color: #fff;
+
 }
+
 .swiper-slide2{
   width: 100%;
   height: 100%;
@@ -56,8 +50,21 @@ display: flex;
 flex-direction: column;
 
 }
-.swiper-button-next:after,  .swiper-button-prev:after {
-  color: rgba(39, 48, 73, 1);
+
+.swiper-pagination-bullet{
+  width: 12px;
+  height: 12px;
+  background-color: #fff ;
+}
+.swiper-pagination-bullet-active{
+  width: 15px;
+  height: 15px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #d58f76 !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,10px);
 }
 @media only screen and (max-width: 427px) {
   .swiper{

@@ -242,7 +242,7 @@ h6 {
 .main__slider_block {
   width: 100%;
   min-height: 100vh;
-  background-color: rgba(39, 48, 73, 1);
+  background-color: #e3e3e3;
 }
 .main__slider__wrapper {
   width: 100%;
