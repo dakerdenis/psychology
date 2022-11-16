@@ -248,148 +248,13 @@ h6 {
   width: 100%;
   height: 100%;
 }
-/*********services elements*****************/
-/*********services elements*****************/
-/*********services elements*****************/
-/*********services elements*****************/
-/*********services elements*****************/
+/*********awards elements*****************/
+/*********awards elements*****************/
+/*********awards elements*****************/
+/*********awards elements*****************/
+/*********awards elements*****************/
 
-.block__content__services {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 5em;
-}
-.services__container_block {
-  max-width: 100%;
-  margin: 0 auto;
-}
-.services__wrapper {
-  width: 100%;
-  margin-bottom: 20px;
-  margin-top: 70px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.services__element__block {
-  width: 20%;
-  padding: 0 15px 30px;
-}
-.services__element {
-  width: 100%;
-  background-color: rgba(255, 255, 255, 1);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  padding: 20px;
-}
-.element__wrapper {
-  font-family: "Oswald";
-}
-.element__name {
-  font-family: "Oswald";
-  color: rgba(39, 48, 73, 1);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 125%;
-  width: 100%;
-  text-align: center;
-}
-.element__money__date {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-.services__money {
-  display: flex;
 
-  margin: 0 auto;
-  flex-direction: column;
-  align-items: center;
-}
-.services__money__desc {
-  color: rgba(39, 48, 73, 1);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 125%;
-}
-.services__money_number {
-  color: rgba(181, 175, 175, 1);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 125%;
-}
-.element__line {
-  margin-top: 3em;
-  border: 1px solid #dbd7d7;
-  width: 100%;
-}
-.services__desc__block {
-}
-.services__desc__element {
-  display: flex;
-}
-.services__desc__element:first-child {
-  margin-top: 22px;
-}
-.services__desc__element {
-  margin-top: 16px;
-  display: flex;
-  align-items: center;
-}
-.services__desc__element__image {
-  width: 22px;
-  height: 22px;
-  margin-right: 14px;
-}
-.services__desc__element__text {
-  color: rgba(181, 175, 175, 1);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 125%;
-}
-.element__okw {
-  display: none;
-  visibility: hidden;
-}
-/*********animations *****************/
-/*********animations *****************/
-
-.services__element:hover {
-  background-color: rgba(39, 48, 73, 1);
-}
-
-.services__element:hover .element__name {
-  color: rgba(248, 240, 246, 1);
-}
-.services__element:hover .services__money__desc p {
-  color: #fff;
-}
-.services__element:hover .services__money_number p {
-  color: #fff;
-}
-.services__element:hover .services__desc__element__text {
-  color: rgba(248, 240, 246, 1);
-}
-.services__element:hover .element__ok {
-  display: none;
-  visibility: hidden;
-}
-.services__element:hover .element__okw {
-  display: initial;
-  visibility: visible;
-}
-.services__main_name {
-  width: 100%;
-  text-align: center;
-  color: #273049;
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 125%;
-}
 /********converter container styles**********************/
 /********converter container styles**********************/
 /********converter container styles**********************/
@@ -458,7 +323,7 @@ h6 {
   color: #a15547;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 64px;
   line-height: 125%;
 }
@@ -506,10 +371,24 @@ h6 {
   margin-bottom: 15px;
 }
 .about__element__name {
+  color: #200960;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+  margin-bottom: 15px;
 }
 .about__element__text {
+  color: #999999;
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 15px;
 }
 .about__element__blue_text {
+  color: #200960;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: 'Cormorant Garamond', serif;
 }
 /***************contact container styles*********************/
 /***************contact container styles*********************/
