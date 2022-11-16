@@ -255,19 +255,16 @@ h6 {
 /*********awards elements*****************/
 /*********awards elements*****************/
 .awards__wrapper {
-
   width: 88%;
-  margin: 0 auto;
-  
-  height: 70vh;
-  background-color: #fff;
+  margin: 0 auto;  
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .awards__element {
   width: 48%;
-  background-color: antiquewhite;
+
   height: 100%;
 }
 .awards__element__wrapper {
@@ -284,16 +281,23 @@ h6 {
 }
 .awards__underimg_text {
   position: absolute;
-  top: 40%;
-  left: 50%;
-  font-size: 55px;
+  top: 24%;
+  left: 43%;
+  font-size: 75px;
+  font-weight: 700;
   font-family: 'Cormorant Garamond', serif;
-
   z-index: 3;
 }
-.awards__element__text__block {
-  background-color: #f6f3ee ;
+.awards__element__text__placeholder{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(246, 243, 238, 0.93) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
   z-index: 4;
+}
+.awards__element__text__block {
 }
 .awards__element__text__block_desc {
   font-size: 14px;
@@ -307,22 +311,53 @@ h6 {
   font-size: 34px;
   font-weight: 700;
 }
-.awards__element__text__blokc__list p{
+.awards__element__text__blokc__list p {
   color: #999999;
   font-size: 16px;
-  
+  margin-top: 20px;
 }
 .fa {
+  font-weight: 400;
 }
 .fa-check {
 }
 .awards__element__text__blokc__icons {
+  
 }
 .awards__element__text__blokc__icons-img {
+  height: 50px;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  width: 50px;
+}
+.awards__element__text__blokc__icons-img img {
+  height: 100%;
 }
 .awards__element__text__blokc__more {
+  margin-top: 15px;
+}
+.awards__element__text__blokc__more a {
+  background-color: #d58f76;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  padding: 8px 19px;
+  transition: ease-in 0.1s;
+}
+.awards__element__text__blokc__more a:hover{
+  background-color: #a15547;
 }
 .awards__element_img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: rgba(246, 243, 238, 0.25) ;
+}
+.awards__element_img img {
+  height: 100%;  
 }
 
 /********about container styles**********************/
@@ -1103,6 +1138,7 @@ textarea:-ms-input-placeholder {
   .services__main_name {
     font-size: 40px;
     line-height: 100%;
+    color: #a15547;
   }
   .services__wrapper {
     margin-top: 45px;
