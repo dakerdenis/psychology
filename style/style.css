@@ -720,9 +720,9 @@ textarea:-ms-input-placeholder {
 .services__wrapper__container_element {
   width: 49%;
   height: 100%;
-  background-color: #e3e3e3;
   position: relative;
 }
+
 .__container_element_imageblock {
   position: absolute;
   width: 100% ;
@@ -767,14 +767,53 @@ textarea:-ms-input-placeholder {
 .__container_element__4blockswrape {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+}
+.__4blockswrape__2{
+
+  width: 100%;
+  height: 48%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-.__4blockswrape__2{}
 .__4blockswrape__element {
+
+  width: 48%;
+  height: 100%;
+  position: relative;
 }
 .__4blockswrape__element__imageblock {
+  position: absolute;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.__4blockswrape__element__imageblock img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .__4blockswrape__element__text {
+  z-index: 4;
+  width: 100%;
+  background-color: rgba(246, 243, 238, 0.8);
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.__4blockswrape__element__text__2{
+
 }
 .__4blockswrape__element__name {
 }
@@ -802,6 +841,8 @@ textarea:-ms-input-placeholder {
 }
 /**? ************************/
 .footer__content__image {
+  display: none;
+  visibility: hidden;
 }
 .footer__content__image_block {
 }
