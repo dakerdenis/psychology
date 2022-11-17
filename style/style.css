@@ -923,7 +923,7 @@ textarea:-ms-input-placeholder {
 }
 .footer__rights__wrapper p {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 150%;
   color: #fff;
@@ -946,6 +946,9 @@ textarea:-ms-input-placeholder {
 @media only screen and (max-width: 1690px) {
   .services__container_block {
     max-width: 1320px;
+  }
+  .footer__content__textname p{
+    line-height: 135%;
   }
 }
 @media only screen and (max-width: 1580px) {
