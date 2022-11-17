@@ -697,6 +697,68 @@ textarea:-ms-input-placeholder {
 .block__content__contacts{
   margin-top: 25px;
 }
+/***********сервисы и услуги**********************/
+/***********сервисы и услуги**********************/
+/***********сервисы и услуги**********************/
+/***********сервисы и услуги**********************/
+
+.services__wrapper_block {
+
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5em;
+  height: 80vh;
+
+}
+.services__wrapper__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services__wrapper__container_element {
+  width: 49%;
+  height: 100%;
+  background-color: #e3e3e3;
+  position: relative;
+}
+.__container_element_imageblock {
+  position: absolute;
+  width: 100% ;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.__container_element_imageblock img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.__container_element__content {
+}
+.__contaciner_element__content__block{
+  
+}
+.__container_element_name {
+}
+.__container_element__desc {
+}
+.__container_element__4blockswrape {
+}
+.__4blockswrape__element {
+}
+.__4blockswrape__element__imageblock {
+}
+.__4blockswrape__element__text {
+}
+.__4blockswrape__element__name {
+}
+.__4blockswrape__element__desc {
+}
+.services__wrapper__connect_with {
+}
 /********footer container styles**********************/
 /********footer container styles**********************/
 /********footer container styles**********************/
