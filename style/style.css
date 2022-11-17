@@ -747,7 +747,7 @@ textarea:-ms-input-placeholder {
   margin-top: 1.3em;
 }
 .footer__content__textelement {
-  margin-top: 5.5em;
+  margin-top: 3.5em;
 }
 .footer__content__textelement a {
   display: block;
@@ -755,26 +755,36 @@ textarea:-ms-input-placeholder {
   font-size: 17px;
   font-weight: 500;
   line-height: 35%;
-  margin-top: 28px;
+  margin-top: 20px;
   text-decoration: none;
 }
+.footer__content__textelement a i {
+  font-weight: 400;
+}
 .footer__rights {
-  width: 91%;
+  background-color: #1e1e1e;
+  width: 100%;
   height: 40px;
+  border-top:  1px solid #e1e1e1;
+
+}
+.footer__rights__wrapper{
+  width: 91%;
+  height: 100%;
   margin: 0 auto;
   display: flex;
-
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
-.footer__rights p {
+.footer__rights__wrapper p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #fff;
+
 }
-.footer__rights p a{
+.footer__rights__wrapper p a{
   color: #fff;
 }
 .footer__content__image_block img {
