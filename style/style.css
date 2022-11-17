@@ -261,6 +261,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 8em;
 }
 .awards__element {
   width: 48%;
@@ -452,6 +453,7 @@ h6 {
   width: 85%;
   margin: 0 auto;
   margin-bottom: 40px;
+  margin-top: 8em;
 }
 .contact__with_us_name {
   width: 100%;
@@ -813,13 +815,30 @@ textarea:-ms-input-placeholder {
   justify-content: center;
 }
 .__4blockswrape__element__text__2{
-
+  width: 80%;
 }
 .__4blockswrape__element__name {
+  color: #020e28;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 35px;
 }
 .__4blockswrape__element__desc {
+  color: #a15547;
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: .1em;
+  margin-top: 0.5em;
 }
 .services__wrapper__connect_with {
+  width: 100%;
+  margin-top: 2em;
+  text-align: center;
+  color: #a15547;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 19px;
 }
 /********footer container styles**********************/
 /********footer container styles**********************/
@@ -912,6 +931,11 @@ textarea:-ms-input-placeholder {
 }
 .footer__rights__wrapper p a{
   color: #fff;
+
+}
+.footer__rights__wrapper p a:hover{
+  color: #fff;
+
 }
 .footer__content__image_block img {
 }
@@ -1120,12 +1144,18 @@ textarea:-ms-input-placeholder {
     display: initial;
     visibility: visible;
   }
-  .header__image a {
-    width: 78%;
-  }
   .header__image img {
     width: 92%;
   }
+  .header__image a {
+    width: 78%;
+
+  }
+.header__name__variant{
+  font-family: 'Cormorant Garamond', serif;
+  color: #020e28;
+  font-size: 45px;
+}
   .services__container_block {
     max-width: 1020px;
   }
