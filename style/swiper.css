@@ -107,6 +107,17 @@ flex-direction: column;
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap,10px);
 }
+@media only screen and (max-width: 769px){
+  .sipwer__image__block img {
+    width: initial;
+    height: 100%;
+  }
+  .swiper__container__content {
+    top: 34%;
+    left: 37%;
+    width: 60%;
+  }
+}
 @media only screen and (max-width: 427px) {
   .swiper{
     height: calc(100vh - 90px);
