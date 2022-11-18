@@ -1472,6 +1472,27 @@ textarea:-ms-input-placeholder {
   .services__wrapper__connect_with p {
     line-height: 20px;
   }
+  .footer__content__textelement a{
+    line-height: 24px;
+    margin-top: 11px;
+  }
+  .footer__rights {
+    height: 55px;
+  }
+  .awards__underimg_text {
+    left: 26%;
+  }
+  .footer__rights__wrapper p {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 400px){
+  .about_wrapper {
+    margin-top: 20em;
+  }
+  .awards__wrapper {
+    margin-top: 20em;
+  }
 }
 @media only screen and (max-width: 376px) {
   .services__element__block {
