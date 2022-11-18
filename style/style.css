@@ -1341,10 +1341,14 @@ textarea:-ms-input-placeholder {
 .__4blockswrape__element {
   width: 49%;
 }
+
 }
 @media only screen and (max-width: 620px){
   .converter__wrapper__block{
     width: 95%;
+  }
+  .about_wrapper {
+    margin-top: 9em;
   }
 }
 @media only screen and (max-width: 427px) {
@@ -1443,6 +1447,30 @@ textarea:-ms-input-placeholder {
   }
   .converter__wrapper__block{
     width: 100%;
+  }
+  .about_wrapper {
+    margin-top: 15em;
+  }
+  .services__wrapper_block {
+    margin-top: 9em;
+  }
+  .__4blockswrape__element__name{
+    font-size: 27px;
+  }
+  .__4blockswrape__element__desc{
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .services__wrapper__connect_with{
+    width: 90%;
+    margin: 0 auto;
+
+  }
+  .services__wrapper__connect_with{
+    margin-top: 15px;
+  }
+  .services__wrapper__connect_with p {
+    line-height: 20px;
   }
 }
 @media only screen and (max-width: 376px) {

@@ -117,9 +117,20 @@ flex-direction: column;
     left: 37%;
     width: 60%;
   }
+
+  .swiper__container__content_name {
+    font-size: 64px;
+  }
+  .swiper__container__content_text {
+    font-size: 17px;
+  }
 }
 @media only screen and (max-width: 427px) {
   .swiper{
     height: calc(100vh - 90px);
+  }
+  .swiper__container__content {
+    left: 15%;
+    width: 78%;
   }
 }
