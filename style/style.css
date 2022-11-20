@@ -987,6 +987,11 @@ justify-content: center;}
   font-size: 40px;
   font-family: 'Cormorant Garamond', serif;
 }
+.__block__foto_desc__text_ p:nth-child(2){
+  color: #a15547;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
 .info__page__block__desc {
 }
 @media only screen and (max-width: 1690px) {
