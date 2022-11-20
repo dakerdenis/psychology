@@ -993,6 +993,13 @@ justify-content: center;}
   margin-top: 10px;
 }
 .info__page__block__desc {
+  margin-top: 2em;
+}
+.info__page__block__desc p {
+  font-size: 17px;
+  color: #999999;
+  line-height: 140%;
+  margin-bottom: 15px;
 }
 @media only screen and (max-width: 1690px) {
   .services__container_block {
