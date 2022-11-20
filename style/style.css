@@ -1399,7 +1399,19 @@ justify-content: center;}
 .__4blockswrape__element {
   width: 49%;
 }
-
+.__block__foto_desc_img img {
+  height: 100%;
+  object-fit: cover;
+}
+.__block__foto_desc__text_{
+  padding-left: 2em;
+}
+.header__image {
+  width: 70%;
+}
+.header__container{
+  height: 80px;
+}
 }
 @media only screen and (max-width: 620px){
   .converter__wrapper__block{

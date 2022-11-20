@@ -2,7 +2,7 @@
 
 .burger-menu_button {
     position: fixed;
-    top: 10px;
+    top: 0px;
     right: 10px;
     z-index: 30;
     width: 80px;
