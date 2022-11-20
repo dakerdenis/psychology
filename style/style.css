@@ -943,6 +943,20 @@ textarea:-ms-input-placeholder {
   display: none;
   visibility: hidden;
 }
+.info__page__wrapper {
+  width: 100%;
+}
+.info__page__block__foto_desc {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+.__block__foto_desc_img {
+}
+.__block__foto_desc__text {
+}
+.info__page__block__desc {
+}
 @media only screen and (max-width: 1690px) {
   .services__container_block {
     max-width: 1320px;
