@@ -532,24 +532,28 @@ h6 {
 
 .contact__with_us_data-social {
   width: 30%;
-  display: none;
-  visibility: hidden;
+
 }
 
 .contact__with_us_data-social-name {
+  font-size: 27px;
   font-weight: 600;
   color: #273049;
-  font-size: 16px;
   line-height: 28.8px;
   margin-bottom: 12px;
 }
 
 .contact__social__wrapper {
   display: flex;
+
 }
 
 .contact__with_us_data-social_block {
   margin-left: 15px;
+  color: #a15547;
+}
+.contact__with_us_data-social_block a {
+    color: #a15547;
 }
 .contact__with_us_data-social_block{
   display: flex;
