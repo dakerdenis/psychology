@@ -391,7 +391,7 @@ h6 {
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
-  height: 360px;
+  height: 488px;
 }
 .about__element {
 
@@ -426,7 +426,7 @@ h6 {
 }
 .about__element__name {
   color: #200960;
-  font-size: 45px;
+  font-size: 32px;
   font-weight: 700;
   font-family: 'Cormorant Garamond', serif;
   margin-bottom: 15px;
