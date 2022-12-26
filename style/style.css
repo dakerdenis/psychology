@@ -283,8 +283,8 @@ h6 {
 }
 .awards__underimg_text {
   position: absolute;
-  top: 24%;
-  left: 43%;
+  top: 17%;
+  left: 31%;
   font-size: 75px;
   font-weight: 700;
   font-family: 'Cormorant Garamond', serif;
@@ -315,7 +315,7 @@ h6 {
   font-weight: 700;
 }
 .awards__element__text__blokc__list p {
-  color: #999999;
+  color: #444444;
   font-size: 16px;
   margin-top: 20px;
   line-height: 136%;
@@ -828,13 +828,13 @@ textarea:-ms-input-placeholder {
   color: #020e28;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 21px;
 }
 .__4blockswrape__element__desc {
   color: #a15547;
-  text-transform: uppercase;
-  font-size: 17px;
-  line-height: 25px;
+
+  font-size: 15px;
+  line-height: 20px;
   letter-spacing: .1em;
   margin-top: 0.5em;
 }
@@ -906,7 +906,7 @@ textarea:-ms-input-placeholder {
   color: #999999;
   font-size: 17px;
   font-weight: 500;
-  line-height: 35%;
+  line-height: 190%;
   margin-top: 20px;
   text-decoration: none;
 }
