@@ -906,6 +906,9 @@ textarea:-ms-input-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  display: none;
+  visibility: hidden;
 }
 .__4blockswrape__element__text_info_wrapper{
   color: #a15547;
@@ -917,8 +920,15 @@ textarea:-ms-input-placeholder {
   padding: 15px;
 }
 
-
-
+.__4blockswrape__element:hover .__4blockswrape__element__text_info{
+  display: flex;
+  visibility: visible;
+  background-color: rgba(246, 243, 238, 0.95);
+}
+.__4blockswrape__element:hover .__4blockswrape__element__text{
+  display: none;
+  visibility: hidden;
+}
 
 /********footer container styles**********************/
 /********footer container styles**********************/
