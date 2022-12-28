@@ -90,6 +90,36 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 16px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #d58f76;	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+
+/*
+ *  STYLE 7
+ */
 /******header styles********************/
 /******header styles********************/
 /******header styles********************/
@@ -1116,6 +1146,40 @@ justify-content: center;}
   margin-bottom: 0.8em;
   margin-top: 1.1em;
 }
+/********************************************/
+/********************************************/
+/********************************************/
+/********************************************/
+.services__info_page {
+  min-height: 100vh;
+  padding-top: 100px;
+}
+.services__info__wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.services__info__element {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.services__info__element__content {
+  width: 50%;
+  height: 100%;
+}
+.services__info__name {
+}
+.services__info__desc {
+}
+.services__info__element__photos {
+  width: 50%;
+  height: 100%;
+}
+
 @media only screen and (max-width: 1690px) {
   .services__container_block {
     max-width: 1320px;
