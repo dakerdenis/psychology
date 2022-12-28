@@ -138,3 +138,31 @@
   .burger_menu__all_rights p a {
     color: #a15547;
   }
+
+
+  .burger__menu__language {
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+
+  }
+  .burger__language__block {
+
+  }
+  .burger__language__block a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    
+    background-color: #a15547;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px  30px ;
+  }
+  .burger__language__block:last-child{
+    margin-left: 1em;
+  }
