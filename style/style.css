@@ -755,6 +755,46 @@ textarea:-ms-input-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: ease-in 0.3s;
+}
+.__container_element__content_info{
+
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(246, 243, 238, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: -150%;
+  display: none;
+  visibility: hidden;
+  transition: ease-in 0.3s;
+}
+.services__wrapper__container_element:hover .__container_element__content_info{
+  display: flex;
+  visibility: visible;
+  background-color: rgba(246, 243, 238, 0.95);
+  transition: ease-in 0.3s;
+  left: 0;
+}
+.services__wrapper__container_element:hover .__container_element__content{
+  display: none;
+  visibility: hidden;
+
+  transition: ease-in 0.3s;
+}
+
+.__container_element__content_info_desc{
+  width: 80%;
+  margin: 0 auto;
+  color: #273049;
+
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: .1em;
+  margin-top: .5em;
 }
 .__contaciner_element__content__block{
   width: 50%;
@@ -782,6 +822,7 @@ textarea:-ms-input-placeholder {
   height: 100%;
 
 }
+
 .__4blockswrape__2{
 
   width: 100%;
@@ -821,6 +862,10 @@ textarea:-ms-input-placeholder {
   align-items: center;
   justify-content: center;
 }
+.__4blockswrape__element__desc_info{
+  width: 90%;
+  margin: 0 auto;
+}
 .__4blockswrape__element__text__2{
   width: 80%;
 }
@@ -838,6 +883,10 @@ textarea:-ms-input-placeholder {
   letter-spacing: .1em;
   margin-top: 0.5em;
 }
+
+
+
+
 .services__wrapper__connect_with {
   width: 100%;
   margin-top: 2em;
@@ -847,6 +896,30 @@ textarea:-ms-input-placeholder {
   letter-spacing: 1px;
   font-size: 19px;
 }
+
+.__4blockswrape__element__text_info{
+  z-index: 4;
+  width: 100%;
+  background-color: rgba(246, 243, 238, 0.8);
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.__4blockswrape__element__text_info_wrapper{
+  color: #a15547;
+
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: .1em;
+  margin-top: 0.5em;
+  padding: 15px;
+}
+
+
+
+
 /********footer container styles**********************/
 /********footer container styles**********************/
 /********footer container styles**********************/
