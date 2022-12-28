@@ -1174,6 +1174,12 @@ justify-content: center;}
     font-size: 31px;
     line-height: 39px;
   }
+  .header__container {
+    height: 80px;
+  }
+  .main__content{
+    margin-top: -7px;
+  }
 }
 @media only screen and (max-width: 1368px) {
   .services__container_block {
@@ -1221,6 +1227,10 @@ justify-content: center;}
   }
   .swiper__slide_content_dontainer {
     bottom: 8%;
+  }
+  .awards__underimg_text{
+    display: none;
+    visibility: hidden;
   }
 }
 @media only screen and (max-width: 1285px) {
