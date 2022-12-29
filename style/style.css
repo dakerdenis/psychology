@@ -1215,6 +1215,10 @@ justify-content: center;}
 .services__info__element__photos5{
   background-image: url('../style/img/6.jpg');
 }
+.services__wrapper__container__phone{
+  display: none;
+  visibility: hidden;
+}
 @media only screen and (max-width: 1690px) {
   .services__container_block {
     max-width: 1320px;
@@ -1640,7 +1644,8 @@ justify-content: center;}
   height: 100vh;
 }
 .services__wrapper__container{
-  flex-direction: column;
+  display: none;
+  visibility: hidden;
 
 }
 
@@ -1675,6 +1680,13 @@ justify-content: center;}
 }
 .__4blockswrape__element {
   width: 100%;
+}
+.services__wrapper_block{
+  height: initial;
+}
+.services__wrapper__container__phone{
+  display: block;
+  visibility: visible;
 }
 }
 @media only screen and (max-width: 620px){
