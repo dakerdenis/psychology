@@ -1905,6 +1905,12 @@ justify-content: center;}
   .about_wrapper {
     margin-top: 22em;
   }
+  .footer__content__textelement a{
+    font-size: 14.5px;
+  }
+  .footer__content__textwrapper{
+    margin-bottom: 0.5em;
+  }
 }
 @media only screen and (max-width: 400px){
   .about_wrapper {
