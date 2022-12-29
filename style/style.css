@@ -1754,7 +1754,7 @@ justify-content: center;}
     font-size: 17px;
   }
 }
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 450px) {
   .block__content__services {
     width: 100%;
   }
@@ -1887,6 +1887,17 @@ justify-content: center;}
   }
   .footer__rights__wrapper p {
     font-size: 11px;
+  }
+  .services__mobile__element_name{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .services__mobile__element_desc{
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .services__wrapper_block {
+    margin-top: 30em;
   }
 }
 @media only screen and (max-width: 400px){
