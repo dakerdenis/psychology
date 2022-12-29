@@ -166,3 +166,12 @@
   .burger__language__block:last-child{
     margin-left: 1em;
   }
+  
+
+.header__image a {
+  font-family: 'Cormorant Garamond', serif;
+    color: #020e28;
+    font-size: 30px;
+    font-weight: 700;
+}
+

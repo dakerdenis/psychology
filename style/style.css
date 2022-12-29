@@ -1911,6 +1911,7 @@ justify-content: center;}
   .footer__content__textwrapper{
     margin-bottom: 0.5em;
   }
+
 }
 @media only screen and (max-width: 400px){
   .about_wrapper {
@@ -1947,5 +1948,27 @@ justify-content: center;}
   }
   .services__element__block {
     padding: 0 6px 15px;
+  }
+  .header__image a {
+    font-size: 22px;
+  }
+  .main__slider_block {
+    min-height: 88vh;
+  }
+  .about_wrapper{
+    margin-top: 23em;
+  }
+  .awards__element__text__block{
+    padding: 25px;
+  }
+  .awards__element__text__placeholder{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .contact__with_us_desc {
+    font-size: 16px;
+  }
+  .contact__with_us_data-numbers-p2{
+    font-size: 16px;
   }
 }
