@@ -1971,4 +1971,20 @@ justify-content: center;}
   .contact__with_us_data-numbers-p2{
     font-size: 16px;
   }
+  .contact__with_us_data-p {
+    font-size: 16px;
+  }
+  .services__wrapper_block {
+    margin-top: 18em;
+  }
+  .awards__wrapper{
+    margin-top: 24em;
+  }
+  .swiper__container__content_name {
+    font-size: 36px;
+  }
+  .swiper__container__content_text{
+    font-size: 16px;
+    line-height: 25px;
+  }
 }
