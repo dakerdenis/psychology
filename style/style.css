@@ -1899,6 +1899,12 @@ justify-content: center;}
   .services__wrapper_block {
     margin-top: 30em;
   }
+  .awards__wrapper {
+    margin-top: 24px;
+  }
+  .about_wrapper {
+    margin-top: 22em;
+  }
 }
 @media only screen and (max-width: 400px){
   .about_wrapper {
