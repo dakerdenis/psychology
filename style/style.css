@@ -2076,7 +2076,7 @@ justify-content: center;}
     font-size: 16px;
   }
   .services__wrapper_block {
-    margin-top: 18em;
+    margin-top: 0em;
   }
   .awards__wrapper{
     margin-top: 24em;
@@ -2088,7 +2088,4 @@ justify-content: center;}
     font-size: 16px;
     line-height: 25px;
   }
-  .swiper__container__content {
-    top: 43%;
-  }
-}
+}}
