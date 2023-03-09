@@ -467,20 +467,27 @@ h6 {
   font-size: 32px;
   font-weight: 700;
   font-family: 'Cormorant Garamond', serif;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .about__element__text {
   color: #999999;
-  font-size: 17px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 25px;
   margin-bottom: 15px;
 }
+
 .about__element__blue_text {
-  color: #200960;
-  font-size: 20px;
-  font-weight: 700;
+  color: #999999;
+  font-size: 17px;
+  font-weight: 400;
   line-height: 28px;
-  font-family: 'Cormorant Garamond', serif;
+
+}
+.heighleighted_text {
+  color: #020e28;
+  font-weight: 700;
+  font-weight: 16.5px;
+
 }
 /***************contact container styles*********************/
 /***************contact container styles*********************/
