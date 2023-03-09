@@ -1,3 +1,11 @@
 .swiper__container__content_desc{
     margin-top: 25px;
 }
+.about__element__name {
+    font-size: 29px;
+}
+.about__element__text_blue span{
+    color: #020e28;
+    font-weight: 700;
+    font-weight: 16.5px;
+}
