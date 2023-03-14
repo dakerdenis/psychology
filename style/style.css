@@ -911,6 +911,7 @@ textarea:-ms-input-placeholder {
   line-height: 20px;
   letter-spacing: .1em;
   margin-top: 0.5em;
+  text-transform: uppercase;
 }
 
 
@@ -1208,19 +1209,19 @@ justify-content: center;}
   background-size: cover;
 }
 .services__info__element__photos1{
-  background-image: url('../style/img/1.jpg');
-}
-.services__info__element__photos2{
-  background-image: url('../style/img/3.jpg');
-}
-.services__info__element__photos3{
   background-image: url('../style/img/4.jpg');
 }
-.services__info__element__photos4{
+.services__info__element__photos2{
   background-image: url('../style/img/5.jpg');
 }
-.services__info__element__photos5{
+.services__info__element__photos3{
   background-image: url('../style/img/6.jpg');
+}
+.services__info__element__photos4{
+  background-image: url('../style/img/7.jpg');
+}
+.services__info__element__photos5{
+  background-image: url('../style/img/8.jpg');
 }
 .services__wrapper__container__phone{
   display: none;
