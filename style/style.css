@@ -1848,6 +1848,15 @@ justify-content: center;}
   .services__info__wrapper{
     margin-top: 0px;
   }
+  .main__slider_block{
+    min-height: initial;
+  }
+  .block__content__about {
+    margin-top: 21px;
+  }
+  .about_wrapper {
+    margin-top: 21em;
+  }
 }
 @media only screen and (max-width: 450px) {
   .block__content__services {
