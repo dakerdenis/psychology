@@ -1223,6 +1223,9 @@ justify-content: center;}
 .services__info__element__photos5{
   background-image: url('../style/img/8.jpg');
 }
+.swiper__container__content_text{
+  margin-top: 10px;
+}
 .services__wrapper__container__phone{
   display: none;
   visibility: hidden;
@@ -2065,7 +2068,7 @@ justify-content: center;}
 }
 @media only screen and (max-width: 400px){
   .about_wrapper {
-    margin-top: 22em;
+    margin-top: 24em;
   }
 
 }
@@ -2104,7 +2107,7 @@ justify-content: center;}
     min-height: 88vh;
   }
   .about_wrapper{
-    margin-top: 23em;
+    margin-top: 26em;
   }
   .awards__element__text__block{
     padding: 25px;

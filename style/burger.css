@@ -71,7 +71,7 @@
     height: 100%;
     background-color: #fff;
     overflow-y: auto;
-    right: -100%;
+    right: -110%;
     -webkit-transition: 0.8s;
     -moz-transition: 0.8s;
     -o-transition: 0.8s;
